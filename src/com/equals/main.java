@@ -17,7 +17,7 @@ public class main {
 		
 		System.out.println(emp1.hashCode());
 		
-		System.out.println("Shallow compare : "+(emp==emp));
+		System.out.println("Shallow compare : "+(emp==emp1));
 		
 		System.out.println("Deep compare :"+ (emp.equals(emp1)));
 	}
